@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'AfrahDemo';
+    src: url('fonts/Free-Afrah-Serif-Font/WFK/AfrahDemo.eot');
+   /* IE9 Compat Modes */
+    src: url('fonts/Free-Afrah-Serif-Font/WFK/AfrahDemo.eot?#iefix') format('embedded-opentype'), 
+   /* IE6-IE8 */
+    url('fonts/Free-Afrah-Serif-Font/WFK/AfrahDemo.woff') format('woff'), 
+   /* Modern Browsers */
+    url('fonts/Free-Afrah-Serif-Font/WFK/AfrahDemo.ttf') format('truetype'), 
+   /* Safari, Android, iOS */
+    url('fonts/Free-Afrah-Serif-Font/WFK/AfrahDemo.svg#AfrahDemo') format('svg');
+   /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+@media (min-width:1201px) and (max-width: 1600px) {
+    .grid-container {
+        display: grid;
+        width : 80%;
+        position: relative;
+        left:10%;
+        grid-template-columns: 40% 350px;
+        background-color: #FCF9F2;
+   }
+    h1{
+        color: #6D493B;
+        text-transform: uppercase;
+        font-family: 'AfrahDemo', Arial, sans-serif;
+        font-size: 100px;
+        position:relative;
+        left: 100px;
+        top : 100px;
+   }
+    .grid-item{
+        height:400px;
+   }
+    #photo{
+        border-radius: 50%;
+        width:350px;
+        height:350px;
+        margin-top: 20px;
+   }
+    #big-cloud{
+        width:1000px;
+        height:1000px;
+   }
+    #big-cloud-container{
+        grid-column: 2;
+        grid-row: 1;
+        transform: translate(-170px,-150px) 
+   }
+    #cv-photo{
+        width:350px;
+        height:195px;
+        background-color: #C19B87;
+        border-bottom-left-radius: 5%;
+        border-bottom-right-radius: 5%;
+        grid-row: 1;
+        grid-column: 3;
+   }
+    #applicant-name{
+        height:100%;
+   }
+    .flex-container{
+        display:flex;
+        flex-direction: row;
+        width : 80%;
+        position: relative;
+        left:10%;
+        background-color: #FCF9F2;
+        z-index:-1;
+   }
+    .column-1-flex-container{
+        display:flex;
+        flex-direction: column;
+        position: relative;
+        width:50%;
+   }
+    .column-1-flex-container  h2 {
+        color:#6D493B;
+        margin-left:100px;
+   }
+    .column-1-flex-container table {
+        margin-left:80px;
+        margin-top:20px;
+   }
+    #phone-svg{
+        height:30px;
+   }
+   #home-svg{
+        height:30px;
+   }
+   #email-svg{
+    height:30px;
+}
+   .info{
+        padding-left: 15px;
+   }
+
+   .info p{
+        margin:0px;
+   }
+   .education {
+        margin-top:20px;
+   }
+   #small-cloud {
+    width:200px;
+   }
+   #cloud-div{
+    transform: translate(13%, -70%);
+   }
+   
+}
