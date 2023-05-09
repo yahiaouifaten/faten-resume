@@ -102,13 +102,50 @@
         margin:0px;
    }
    .education {
+        display:grid;
+        grid-template-columns: 1fr;
         margin-top:20px;
+   }
+   .education > h2 {
+    grid-column:1;
+    grid-row:1;
    }
    #small-cloud {
     width:200px;
+    grid-column:1;
+    grid-row:1;
+    transform: translate(80px,-10px);
    }
-   #cloud-div{
-    transform: translate(13%, -70%);
+   h5{
+    color:#6D493B;
+    margin-left:100px;
    }
-   
+   ul,td,p,div{
+    color:#6D493B;
+   }
+   .school p {
+    margin-left:100px;
+   }
+   .skills {
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-top:20px;
+    }
+   .skills > h2 {
+    grid-column:1;
+    grid-row:1;
+   }
+   .skills-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 100px;
+    gap : 5px;
+   }
+   .skills-container div {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #6D493B;
+    border-radius: 5px;
+    text-align: center;
+   }
 }
