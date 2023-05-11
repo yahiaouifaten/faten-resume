@@ -263,3 +263,16 @@
           grid-column: 1 / span 2;
      }
 }
+@media (min-width:319px) and  (max-width: 480px) {
+     .grid-container{
+          display:flex;
+          flex-direction: column;
+
+     }
+     #photo{
+          border-radius: 50%;
+          width:100px;
+          height:100px;
+          margin-top: 20px;
+     }
+}
