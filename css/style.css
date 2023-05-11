@@ -263,16 +263,112 @@
           grid-column: 1 / span 2;
      }
 }
-@media (min-width:319px) and  (max-width: 480px) {
+@media (min-width:319px) and  (max-width: 1200px) {
+     body {
+          background: #FCF9F2;
+          color: #6D493B;
+     }
      .grid-container{
           display:flex;
-          flex-direction: column;
-
+          flex-direction: row;
+          justify-content: space-evenly;;
+          align-items: center;
+          background-image: url('../images/big-cloud.svg');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 700px;
      }
+     h1{
+          color: #6D493B;
+          text-transform: uppercase;
+          font-family: 'AfrahDemo', Arial, sans-serif;
+          font-size: 50 px;
+     }
+     #cv-photo{
+          order: 3;
+          align-self: flex-end;
+     }
+
      #photo{
           border-radius: 50%;
-          width:100px;
-          height:100px;
+          width:150x;
+          height:150px;
           margin-top: 20px;
+     }
+     #big-cloud{
+          display:none;
+     }
+     .column-1-flex-container{
+          display:flex;
+          flex-direction:column;          
+          width:90%;
+          position:relative;
+          left:5%;
+          
+     }
+     .column-1-flex-container > h2{
+          color:#6D493B;
+          text-align: center;
+          
+     }
+     #phone-svg{
+          height:30px;
+     }
+     #home-svg{
+          height:30px;
+     }
+     #email-svg{
+      height:30px;
+     }
+     .contact{
+          padding-top:5px;
+     }
+     .education > #small-cloud{
+          display:none;
+          
+     }
+     .column-1-flex-container  h2 {
+          color:#6D493B;
+          text-align:center;      
+          align-items: center;   
+          justify-content: center; 
+          background-image: url('../images/small-cloud.svg');
+          background-repeat: no-repeat;     
+          background-size: 500px;   
+          background-position:top;
+     }
+     .column-3-flex-container h2{
+          color:#6D493B;
+          text-align:center;  
+          background-image: url('../images/small-cloud.svg');
+          background-repeat: no-repeat;  
+          background-size: 500px;
+          background-position: top;
+     }
+     .column-3-flex-container img{
+          display:none;
+     }
+     .experience-container{
+          margin:5%;
+     }
+     h4,h5{
+          color:#6D493B;  
+     }
+     .horizontal-ruler{
+          width: 500px;
+          position: relative;
+          align-self: center;
+     }
+     .skills > #small-cloud {
+          display:none;
+     }
+     .languages > #small-cloud {
+          display:none;
+     }
+     .certifications > #small-cloud-3 {
+          display:none;
+     }
+     #about{
+          display:none;
      }
 }
